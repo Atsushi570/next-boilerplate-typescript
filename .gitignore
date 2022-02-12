@@ -1,0 +1,6 @@
+.next/
+node_modules
+*.module.scss.d.ts
+yarn-error.log
+
+.DS_Store
