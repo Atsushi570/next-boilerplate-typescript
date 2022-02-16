@@ -10,7 +10,7 @@ export const Button: FC<Props> = (props: Props) => {
   const {
     children,
     variant = 'outlined',
-    styles = { 'text-transform': 'none' },
+    styles = { textTransform: 'none' },
     ...muiButtonProps
   } = props
   return (
