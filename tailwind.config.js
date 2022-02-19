@@ -1,5 +1,7 @@
+const path = require('path')
+
 module.exports = {
-  content: ['./src/components/*.{jsx,tsx}', './src/pages/*.{jsx,tsx}'],
+  content: [path.join(__dirname, './src/**/*.(js|jsx|ts|tsx)')],
   important: '#__next',
   theme: {
     extend: {},
