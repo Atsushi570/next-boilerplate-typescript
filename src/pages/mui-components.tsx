@@ -4,10 +4,10 @@ import Accordion from '@mui/material/Accordion'
 import AccordionSummary from '@mui/material/AccordionSummary'
 import SearchIcon from '@mui/icons-material/Search'
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore'
-import { Card, InputLabel, MenuItem, SelectChangeEvent } from '@mui/material'
-import { Button } from '@/components/basics/Button'
-import { Input } from '@/components/basics/Input'
-import { Select } from '@/components/basics/Select'
+import { Card, MenuItem } from '@mui/material'
+import Button from '@/components/basics/Button'
+import Input from '@/components/basics/Input'
+import Select from '@/components/basics/Select'
 
 export const MuiComponents: NextPage = () => {
   // Input
