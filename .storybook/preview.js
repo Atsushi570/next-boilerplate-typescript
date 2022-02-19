@@ -1,7 +1,6 @@
 import { ThemeProvider } from '@mui/material/styles'
 import theme from '../src/styles/themes/MuiTheme'
 import '../src/styles/globals.css'
-import { CssBaseline } from '@mui/material'
 import { ThemeProvider as Emotion10ThemeProvider } from 'emotion-theming'
 
 export const parameters = {
