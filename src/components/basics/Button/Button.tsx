@@ -1,6 +1,7 @@
 import { FC, ReactNode } from 'react'
 import MuiButton, { ButtonProps } from '@mui/material/Button'
 import Colors from '@/styles/themes/colors'
+import ClassNames from './Button.module.scss'
 
 type Props = Omit<ButtonProps, 'color'> & {
   children?: ReactNode
@@ -18,8 +19,16 @@ export const Button: FC<Props> = (props: Props) => {
   } = props as any
 
   return (
-    <MuiButton variant={variant} size={size} style={styles} {...muiButtonProps}>
-      {children}
-    </MuiButton>
+    <div>
+      <MuiButton
+        variant={variant}
+        size={size}
+        style={styles}
+        className={ClassNames.button}
+        {...muiButtonProps}
+      >
+        {children}
+      </MuiButton>
+    </div>
   )
 }
